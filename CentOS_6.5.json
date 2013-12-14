@@ -20,7 +20,7 @@
     {
       "type": "vagrant",
       "virtualbox": {
-        "output": "INSANEWORKS-CentOS-6.5-x86_64-v20131201.box"
+        "output": "INSANEWORKS-CentOS-6.5-x86_64-v20131212.box"
       }
     }
   ],
