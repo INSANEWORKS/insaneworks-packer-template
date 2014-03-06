@@ -19,7 +19,7 @@
   "post-processors": [
     {
       "type": "vagrant",
-      "output": "INSANEWORKS-CentOS-6.5-x86_64-v20140226.box"
+      "output": "INSANEWORKS-CentOS-6.5-x86_64-v20140306.box"
     }
   ],
   "builders": [
