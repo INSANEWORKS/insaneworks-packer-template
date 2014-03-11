@@ -16,15 +16,15 @@ packer build -only virtualbox-iso CentOS_6.5.json
 box add BOXNAME INSANEWORKS-CentOS-6.5-x86_64-v20140306.box
 ```
 
-## Vagrant up
+## Vagrant Cloud
 
 ```
 mkdir centos
 cd centos
-vagrant init BOXNAME
-vi Vagrantfile
+vagrant init insaneworks/centos
 vagrant up
 ```
+
 
 ## or Public URL Init
 
