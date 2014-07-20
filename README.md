@@ -1,19 +1,21 @@
 centos-packer
 =============
 
-CentOS 6.5 x86_64 + Chef 11.12 + VirtualBox 4.3.14 for Packer 0.6 Template
+CentOS 6.5 x64 + Chef + VirtualBox/VMWare for Packer Template
 
 ## Packer Build for VirtualBox
 
 ```
 packer validate CentOS_6.5.json
-packer build -only virtualbox-iso CentOS_6.5.json
+packer build [ -only virtualbox-iso | vmware-iso ] CentOS_6.5.json
 ```
 
 ## Add Vagrant Box
 
 ```
-box add BOXNAME INSANEWORKS-CentOS-6.5-x86_64-v20140716.box
+box add BOXNAME INSANEWORKS-CentOS-6.5-x86_64-v20140721-virtualbox.box
+or
+box add BOXNAME INSANEWORKS-CentOS-6.5-x86_64-v20140721-vmware.box
 ```
 
 ## Vagrant Cloud
@@ -31,7 +33,9 @@ vagrant up
 ```
 mkdir centos
 cd centos
-vagrant init INSANEWORKS-CentOS-6.5-x86_64-v20140716 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6.5-x86_64-v20140716.box
+vagrant init INSANEWORKS-CentOS-6.5-x86_64-v20140721 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6.5-x86_64-v20140721-virtualbox.box
+or
+vagrant init INSANEWORKS-CentOS-6.5-x86_64-v20140721 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6.5-x86_64-v20140721-vmware.box
 vagrant up
 ```
 
