@@ -14,11 +14,11 @@ packer build [ -only virtualbox-iso | -only vmware-iso ]  [ CentOS_6.5.json | Ce
 ## Add Vagrant Box
 
 ```
-box add BOXNAME INSANEWORKS-CentOS-6.5-x86_64-v20140911-virtualbox.box
-box add BOXNAME INSANEWORKS-CentOS-7.0-x86_64-v20140911-virtualbox.box
+box add BOXNAME INSANEWORKS-CentOS-6.5-x86_64-v20140926-virtualbox.box
+box add BOXNAME INSANEWORKS-CentOS-7.0-x86_64-v20140926-virtualbox.box
 or
-box add BOXNAME INSANEWORKS-CentOS-6.5-x86_64-v20140911-vmware.box
-box add BOXNAME INSANEWORKS-CentOS-7.0-x86_64-v20140911-vmware.box
+box add BOXNAME INSANEWORKS-CentOS-6.5-x86_64-v20140926-vmware.box
+box add BOXNAME INSANEWORKS-CentOS-7.0-x86_64-v20140926-vmware.box
 ```
 
 ## Vagrant Cloud
@@ -38,11 +38,11 @@ vagrant up
 ```
 mkdir centos
 cd centos
-vagrant init INSANEWORKS-CentOS-6.5-x86_64-v20140911 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6.5-x86_64-v20140911-virtualbox.box
-vagrant init INSANEWORKS-CentOS-7.0-x86_64-v20140911 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7.0-x86_64-v20140911-virtualbox.box
+vagrant init INSANEWORKS-CentOS-6.5-x86_64-v20140926 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6.5-x86_64-v20140926-virtualbox.box
+vagrant init INSANEWORKS-CentOS-7.0-x86_64-v20140926 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7.0-x86_64-v20140926-virtualbox.box
 or
-vagrant init INSANEWORKS-CentOS-6.5-x86_64-v20140911 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6.5-x86_64-v20140911-vmware.box
-vagrant init INSANEWORKS-CentOS-7.0-x86_64-v20140911 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7.0-x86_64-v20140911-vmware.box
+vagrant init INSANEWORKS-CentOS-6.5-x86_64-v20140926 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6.5-x86_64-v20140926-vmware.box
+vagrant init INSANEWORKS-CentOS-7.0-x86_64-v20140926 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7.0-x86_64-v20140926-vmware.box
 vagrant up
 ```
 
