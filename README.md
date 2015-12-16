@@ -15,10 +15,10 @@ VERSION=v20151209 packer build [ -only virtualbox-iso | -only vmware-iso ]  [ Ce
 
 ```
 box add BOXNAME INSANEWORKS-CentOS-6-x86_64-v20151209-virtualbox.box
-box add BOXNAME INSANEWORKS-CentOS-7-x86_64-v20151209-virtualbox.box
+box add BOXNAME INSANEWORKS-CentOS-7-x86_64-v20151217-virtualbox.box
 or
 box add BOXNAME INSANEWORKS-CentOS-6-x86_64-v20151209-vmware.box
-box add BOXNAME INSANEWORKS-CentOS-7-x86_64-v20151209-vmware.box
+box add BOXNAME INSANEWORKS-CentOS-7-x86_64-v20151217-vmware.box
 ```
 
 ## Vagrant Cloud
@@ -39,10 +39,10 @@ vagrant up
 mkdir centos
 cd centos
 vagrant init INSANEWORKS-CentOS-6-x86_64-v20151209 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6-x86_64-v20151209-virtualbox.box
-vagrant init INSANEWORKS-CentOS-7-x86_64-v20151209 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7-x86_64-v20151209-virtualbox.box
+vagrant init INSANEWORKS-CentOS-7-x86_64-v20151217 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7-x86_64-v20151217-virtualbox.box
 or
 vagrant init INSANEWORKS-CentOS-6-x86_64-v20151209 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6-x86_64-v20151209-vmware.box
-vagrant init INSANEWORKS-CentOS-7-x86_64-v20151209 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7-x86_64-v20151209-vmware.box
+vagrant init INSANEWORKS-CentOS-7-x86_64-v20151217 http://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7-x86_64-v20151217-vmware.box
 vagrant up
 ```
 
