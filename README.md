@@ -46,11 +46,11 @@ mkdir centos
 cd centos
 vagrant init INSANEWORKS-CentOS-6-x86_64-v20200116 https://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6-x86_64-v20200116-virtualbox.box
 vagrant init INSANEWORKS-CentOS-7-x86_64-v20200116 https://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7-x86_64-v20200116-virtualbox.box
-vagrant init INSANEWORKS-CentOS-6-x86_64-v20200116 https://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6-x86_64-v20200116-virtualbox.box
+vagrant init INSANEWORKS-CentOS-8-x86_64-v20200116 https://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-8-x86_64-v20200116-virtualbox.box
 or
 vagrant init INSANEWORKS-CentOS-6-x86_64-v20200116 https://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6-x86_64-v20200116-vmware.box
 vagrant init INSANEWORKS-CentOS-7-x86_64-v20200116 https://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7-x86_64-v20200116-vmware.box
-vagrant init INSANEWORKS-CentOS-6-x86_64-v20200116 https://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-7-x86_64-v20200116-vmware.box
+vagrant init INSANEWORKS-CentOS-8-x86_64-v20200116 https://www.insaneworks.co.jp/pub/boxes/INSANEWORKS-CentOS-6-x86_64-v20200116-vmware.box
 vagrant up
 ```
 
